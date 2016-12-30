@@ -1,9 +1,0 @@
-# JavaScript Objects in Detail
-
-## Deleting Properties of an Object
-To delete a property from an object, you use the delete operator. You cannot delete properties that were inherited, nor can you delete properties with their attributes set to configurable. 
-You must delete the inherited properties on the prototype object (where the properties were defined). 
-Also, you cannot delete properties of the global object, which were declared with the var keyword.
-
-The delete operator returns true if the delete was successful. 
-And surprisingly, it also returns true if the property to delete was nonexistent or the property could not be deleted (such as non-configurable or not owned by the object).
